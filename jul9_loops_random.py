@@ -37,6 +37,10 @@ print('Random integer = ' + str(random_int))
     
 # game finished
 
+# Using binary search algorithm:
+#     - log2(100) ~ 6.6
+#     => maximum 6 times to search for a number
+
 
 # Control flow
 # 2 loops: 
