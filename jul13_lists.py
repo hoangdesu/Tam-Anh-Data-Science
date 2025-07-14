@@ -145,7 +145,8 @@ Challenge: improve on the Invoice app
     
 ---------------------- INVOICE ------------------------
 No      Name            Quantity    Item Price    Total
-1       cafe            2           $10.0         $20.0
+1       ca phe sua      2           $10.0         $20.0
+        da
 2       pho             3           $20.0         $60.0
 -------------------------------------------------------
 Total                                             $80.0
