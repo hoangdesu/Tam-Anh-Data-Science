@@ -7,33 +7,33 @@ scores[0] = 6.0
 s = scores[1]
 s = 9.9
 
-# for i in range(len(scores)):
-#     # s = scores[i]
-#     # print('s =', s)
-#     scores[i] -= 1
+for i in range(len(scores)):
+    # s = scores[i]
+    # print('s =', s)
+    scores[i] -= 1
     
 
 # Short hand for loop
-# for score in scores:
-#     score -= 2
-#     print('score =', score)
+for score in scores:
+    score -= 2
+    print('score =', score)
 
 
-# for i in range(len(scores)):
-#     scores[i] *= 2
-#     print('score =', scores[i])
+for i in range(len(scores)):
+    scores[i] *= 2
+    print('score =', scores[i])
 
 # print(scores)
 
 
 # Calculate the average score
-# total = 0
+total = 0
 
-# for score in scores:
-#     total += score
+for score in scores:
+    total += score
 
-# avg = total / len(scores)
-# print(f'Average = {avg:.2f}')
+avg = total / len(scores)
+print(f'Average = {avg:.2f}')
 
 
 # Find max and min
@@ -74,8 +74,13 @@ print(f'Min = {min_num}')
 a = 1
 b = 2
 
-# TODO: swap the values of a and b
-...
+# Swap the values of a and b
+temp = a
+a = b       # a = 2
+b = temp    # b = 1
+
+# Python only!
+# a, b = b, a
 
 print('a =', a) # 2
 print('b =', b) # 1
