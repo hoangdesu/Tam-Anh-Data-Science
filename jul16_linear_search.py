@@ -1,28 +1,28 @@
 # Linear search: tìm kiếm tuyến tính
 
-# menu = ['pho', 'com tam', 'bun mam', 'bun cha']
+menu = ['pho', 'com tam', 'bun mam', 'bun cha']
 
-# order = input('what u want to order: ') # pho
+order = input('what u want to order: ') # pho
 
 # # flag: đặt cờ
-# found = False
+found = False
 
-# for i in range(len(menu)):
-#     # if order == menu[i]:
-#     #     print(f'your {order} is on the way!')
-#     # else:
-#     #     print(f'your {order} is not in our menu')
+for i in range(len(menu)):
+    # if order == menu[i]:
+    #     print(f'your {order} is on the way!')
+    # else:
+    #     print(f'your {order} is not in our menu')
     
-#     if order == menu[i]:
-#         found = True
-#         break # ignore the rest of the list
+    if order == menu[i]:
+        found = True
+        break # ignore the rest of the list
         
 
-# # conclude after finish searching
-# if found:
-#     print(f'your {order} is on the way!')
-# else:
-#     print(f'sorry, {order} is not in our menu :(')
+# conclude after finish searching
+if found:
+    print(f'your {order} is on the way!')
+else:
+    print(f'sorry, {order} is not in our menu :(')
 
 
 # # ensure the element exists before finding the index
