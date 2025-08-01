@@ -112,11 +112,21 @@ print(phone_word('1900-SAMSUNG')) # -> '1800-7267864'
 
 Challenge 1: Implement the phone_word() function using Dictionary
 
-Challenge 2: Find frequency (number of appearances) of a character in a sentence
 
-def find_char_frequency(sentence: str, char: str) -> int:
+Challenge 2: Find frequency (number of appearance) of all characters in a string
+
+def char_frequency(s: str) -> dict:
     ...
     
-find_char_frequency('I love Machine Learning', 'e') -> 3 # because letter 'e' appears 3 times in the sentence
+e.g char_frequency('Tam Anh ne') will return a dictionary like this:
     
+    {
+        't': 1,
+        'a': 2,
+        'm': 1,
+        'n': 2,
+        'h': 1,
+        'e': 1
+    }
+
     
