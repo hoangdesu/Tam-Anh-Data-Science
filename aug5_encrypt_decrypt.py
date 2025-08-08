@@ -22,6 +22,9 @@ def encrypt(plaintext: str, key: int) -> str:
     
 print(encrypt('aByZ c', 3)) # -> 'dEbC f'
 
+msg = 'Congratulations, you have successfully encrypted this meaningless message ehehe!'
+print(encrypt(msg, 8))
+
 
 
 # def decrypt(cipher: str, key: int) -> str:
